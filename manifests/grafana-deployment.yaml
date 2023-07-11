@@ -30,7 +30,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - env: []
-        image: grafana/grafana:9.3.2
+        image: registry.cn-chengdu.aliyuncs.com/kubernetes-monitoring/grafana:9.3.2
         name: grafana
         ports:
         - containerPort: 3000

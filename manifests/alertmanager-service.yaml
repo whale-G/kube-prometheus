@@ -17,6 +17,7 @@ spec:
   - name: reloader-web
     port: 8080
     targetPort: reloader-web
+  type: NodePort
   selector:
     app.kubernetes.io/component: alert-router
     app.kubernetes.io/instance: main
